@@ -10,6 +10,8 @@ You can safely delete this README.md file or change it for your own project. Ple
 
 To save: git add . git commit -m '' git push
 
+terminal errors: q (or) exit (or) ctrl-c
+
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
 `python3 -m http.server`

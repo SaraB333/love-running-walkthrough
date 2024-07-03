@@ -18,7 +18,7 @@ body {
     font-family: "lato", sans-serif;
 }
 
-/* header */
+/* Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -33,7 +33,6 @@ header a {
     color: inherit;
 }
 
-/* h1 */
 h1 {
     font-family: 'oswald', sans-serif;
     text-transform: uppercase;
@@ -41,14 +40,28 @@ h1 {
     color: #252525
 }
 
-/* main */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Main content */
 main {
     background-color: lightblue;
     /* make main element take up and surplus space to push down footer */
     flex: 1 0 auto;
 }
 
-/* footer */
+/* Footer */
 footer {
     background-color: orange;
 }

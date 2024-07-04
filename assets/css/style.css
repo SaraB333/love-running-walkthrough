@@ -148,6 +148,16 @@ main {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
+    /* Makes the square image a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benifits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */

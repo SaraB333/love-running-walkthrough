@@ -130,10 +130,18 @@ main {
     margin: 5px 0;
 }
 
-#benifits-physical h3 {
+#benifits div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benifits h3 {
     text-transform: uppercase;
 }
 
+#benifits p {
+    padding: 0 20px;
+}
 
 /* Footer */
 #social-networks {
